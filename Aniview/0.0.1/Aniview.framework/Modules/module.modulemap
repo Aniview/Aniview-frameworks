@@ -1,0 +1,11 @@
+framework module Aniview {
+  umbrella header "Aniview.h"
+
+  export *
+  module * { export * }
+}
+
+module Aniview.Swift {
+    header "Aniview-Swift.h"
+    requires objc
+}
